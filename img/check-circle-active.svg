@@ -1,0 +1,11 @@
+<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="check-circle">
+<path id="Icon" d="M7.5 12.72L10.5 15.72L16.5 9.71997M22 12.72C22 18.2428 17.5228 22.72 12 22.72C6.47715 22.72 2 18.2428 2 12.72C2 7.19712 6.47715 2.71997 12 2.71997C17.5228 2.71997 22 7.19712 22 12.72Z" stroke="url(#paint0_linear_115_5369)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_115_5369" x1="11.2501" y1="-19.3884" x2="12.071" y2="22.7186" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#0095FF"/>
+</linearGradient>
+</defs>
+</svg>
