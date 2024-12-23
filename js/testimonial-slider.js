@@ -3,12 +3,6 @@ const swiper = new Swiper(".swiper-container", {
   centeredSlides: true,
   slidesPerView: "auto", // Auto size based on container
   spaceBetween: 40, // Space between slides
-  lazy: false,
-  loopFillGroupWithBlank: true,
-  loopAdditionalSlides: 4, // Preload 3 slides (this can be adjusted based on the number of slides)
-  speed: 600, // Control the transition speed (faster transition may help)
-  observer: true,
-  observeParents: true,
   autoplay: {
     delay: 1000,
     disableOnInteraction: false,
