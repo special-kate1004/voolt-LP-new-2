@@ -155,7 +155,7 @@ footer .support-contact {
     flex-direction: column-reverse;
   }
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 567px) {
   .faq-section .title h2 {
     font-size: 24px;
     font-weight: 600;
@@ -170,5 +170,9 @@ footer .support-contact {
     font-weight: 400;
     line-height: 150%;
     letter-spacing: 0.14px;
+  }
+
+  footer .footer-container .general {
+    gap: 20px;
   }
 }

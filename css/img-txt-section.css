@@ -1,21 +1,5 @@
-.google.img-txt-section {
-  background: url("../img/texture-blue-white.webp");
-  background-size: cover;
-}
-
-.facebook.img-txt-section {
-  background: url("../img/texture-white-blue.webp");
-  background-size: cover;
-}
-
 .facebook.img-txt-section .content {
   max-width: 687px;
-}
-
-.earn-money.img-txt-section {
-  background: url("../img/texture-white-blue-2.webp");
-  background-size: cover;
-  margin-top: -4px;
 }
 
 .earn-money.img-txt-section .img-container img {
@@ -64,7 +48,7 @@
   gap: 18px;
 }
 
-.img-txt-section .content h3 {
+.img-txt-section .content h2 {
   color: #09090b;
   font-family: "General Sans";
   font-size: 40px;
@@ -73,6 +57,7 @@
   line-height: 120%;
   letter-spacing: 0.4px;
   padding: 24px 0;
+  text-align: left;
 }
 
 .img-txt-section .content span {
@@ -120,7 +105,7 @@
     margin: auto;
   }
 
-  .img-txt-section .content h3 {
+  .img-txt-section .content h2 {
     font-size: 36px;
   }
 
@@ -129,8 +114,16 @@
   }
 }
 
-@media screen and (max-width: 467px) {
+@media screen and (max-width: 567px) {
   .img-txt-section {
-    padding: 40px 16px;
+    padding: 20px 16px;
+  }
+
+  .earn-money.img-txt-section .img-container img {
+    margin-left: -20px;
+  }
+
+  .earn-money.img-txt-section h2 {
+    padding-top: 0;
   }
 }

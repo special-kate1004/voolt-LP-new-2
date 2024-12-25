@@ -14,16 +14,36 @@
   margin: 0 5px 5px 5px;
 }
 
+@media screen and (max-width: 992px) {
+  .hero {
+    padding: 40px 0 !important;
+  }
+
+  .hero .subtitle {
+    max-width: 667px;
+  }
+
+  .hero .hero-right img {
+    margin-left: -25px;
+  }
+}
+
 @media screen and (max-width: 576px) {
+  .hero .hero-left .subtitle {
+    max-width: 416px;
+    padding: 0;
+    text-align: left;
+  }
+
   .google-img {
     width: 70px;
-    height: 23px;
+    height: 25px;
     margin: 0 4px 0 4px;
   }
 
   .facebook-img {
     width: 86.7px;
-    height: 17px;
+    height: 25px;
     margin: 0 -2px 2px 0;
   }
 
@@ -35,7 +55,7 @@
     font-size: 16px;
     margin: 20px 0;
     padding: 0;
-    text-align: left;
+    text-align: left !important;
   }
 
   .hero .btnplace .buttons {
@@ -81,5 +101,35 @@
 
   .hero .checkmarks-holder {
     gap: 8px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .hero .hero-left .subtitle {
+    max-width: 410px;
+    padding: 0;
+    text-align: left;
+  }
+
+  .hero {
+    padding: 0 !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .google-img {
+    width: 74px !important;
+    height: 26px;
+    margin: 0 4px 0 4px;
+  }
+
+  .facebook-img {
+    width: 86.7px !important;
+    height: 20px;
+    margin: 0 -2px 2px 0 !important;
+  }
+
+  .hero-left span img {
+    margin-top: 0 !important;
   }
 }

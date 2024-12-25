@@ -1004,7 +1004,7 @@ h2 {
     margin-left: unset;
   }
   .hero-left .subtitle {
-    margin-bottom: 40px;
+    margin-bottom: 24px;
   }
   .hero-left {
     display: flex;
@@ -1135,16 +1135,12 @@ h2 {
     font-weight: 600;
     line-height: 120%;
   }
-  .hero-left span img,
-  .hero-left span:nth-child(2) img {
-    margin-top: -44px;
-  }
+
   .hero-left .subtitle {
     font-size: 16px;
     font-weight: 500;
     line-height: 140%;
     align-self: stretch;
-    padding: 0 20px;
   }
 }
 .under-hero {
@@ -2249,9 +2245,6 @@ h2 {
     padding: 0 16px !important;
   }
 }
-.charged {
-  background: white;
-}
 
 .charged .wrapper {
   max-width: 1280px;
@@ -3164,14 +3157,14 @@ h2 {
 }
 @media screen and (max-width: 768px) {
   .faq-section .wrapper {
-    padding-top: 40px;
+    padding-top: 0px;
     padding-bottom: 40px;
   }
   .faq-section h2 {
     margin-bottom: 36px;
   }
   .faq-section .questions .qa-item {
-    padding: 18px 0;
+    padding: 10px;
   }
   .faq-section .questions .qa-item .question {
     font-size: 16px;

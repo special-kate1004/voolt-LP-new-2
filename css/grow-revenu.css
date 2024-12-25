@@ -27,7 +27,7 @@
   max-width: 318px;
   min-width: 318px;
   padding: 25px 11px;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 20px;
 }
 
@@ -49,4 +49,23 @@
   font-weight: 600;
   line-height: 140%; /* 28px */
   letter-spacing: 0.2px;
+}
+
+@media screen and (max-width: 567px) {
+  .grow-revenu .gif-box {
+    min-width: 90%;
+  }
+
+  .grow-revenu {
+    padding-bottom: 40px;
+  }
+
+  .grow-revenu .gif-top p {
+    max-width: 297px;
+  }
+
+  .grow-revenu .gif-box:nth-child(2) {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 }

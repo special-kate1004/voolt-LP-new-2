@@ -1,3 +1,8 @@
+body {
+  background: url("../img/bg.png");
+  background-size: cover;
+}
+
 .mobile-view {
   display: none;
 }
@@ -9,5 +14,15 @@
 
   .mobile-view {
     display: block;
+  }
+
+  h2 {
+    font-size: 32px !important;
+    font-weight: 600 !important;
+    line-height: 120% !important;
+  }
+
+  .btnplace .primary-button {
+    font-size: 16px !important;
   }
 }
