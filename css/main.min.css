@@ -800,6 +800,7 @@ h2 {
   }
 }
 .hero {
+  top: -1px;
   min-height: 625px;
   padding: 80px 0;
   position: relative;

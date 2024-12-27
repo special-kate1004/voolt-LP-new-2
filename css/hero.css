@@ -8,8 +8,13 @@
 }
 .facebook-img {
   width: 102px;
+<<<<<<< HEAD
   height: 21px;
   margin: 0 0px 5px 5px;
+=======
+  height: 20px;
+  margin: 0 5px 5px 5px;
+>>>>>>> e829ab1c745a2cbcf2cfb6043619b07c8181f4de
 }
 @media screen and (max-width: 992px) {
   .hero {
@@ -30,13 +35,21 @@
   }
   .google-img {
     width: 70px;
+<<<<<<< HEAD
     height: 22px;
+=======
+    height: 25px;
+>>>>>>> e829ab1c745a2cbcf2cfb6043619b07c8181f4de
     margin: 0 4px 0 4px;
   }
   .facebook-img {
     width: 86.7px;
     height: 21px;
+<<<<<<< HEAD
     margin: 0 -2px 2px 0;
+=======
+    margin: 0 -3px 2px 2px;
+>>>>>>> e829ab1c745a2cbcf2cfb6043619b07c8181f4de
   }
   .hero .hero-left h1 {
     text-align: left;
