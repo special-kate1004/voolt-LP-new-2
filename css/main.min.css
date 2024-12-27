@@ -1112,7 +1112,7 @@ h2 {
 }
 @media screen and (max-width: 395px) {
   .hero-left .subtitle {
-    margin-top: 18px;
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 375px) {
