@@ -1110,6 +1110,11 @@ h2 {
     background: none;
   }
 }
+@media screen and (max-width: 395px) {
+  .hero-left .subtitle {
+    margin-top: 18px;
+  }
+}
 @media screen and (max-width: 375px) {
   .hero-left .primary-button {
     font-size: 17px;
