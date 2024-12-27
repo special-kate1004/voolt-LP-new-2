@@ -116,3 +116,9 @@
     padding-top: 0;
   }
 }
+
+@media screen and (max-width: 490px) {
+  .google.img-txt-section .grow svg {
+    width: 25px;
+  }
+}
