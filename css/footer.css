@@ -177,4 +177,8 @@ footer .footer-menu .links div {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  footer .footer-container {
+    justify-content: start;
+  }
 }
