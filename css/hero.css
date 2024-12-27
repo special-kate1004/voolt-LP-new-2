@@ -8,8 +8,9 @@
 }
 .facebook-img {
   width: 102px;
-  height: 20px;
+  height: 21px;
   margin: 0 0px 5px 5px;
+  height: 20px;
 }
 @media screen and (max-width: 992px) {
   .hero {
@@ -30,13 +31,13 @@
   }
   .google-img {
     width: 70px;
-    height: 25px;
+    height: 22px;
     margin: 0 4px 0 4px;
   }
   .facebook-img {
     width: 86.7px;
     height: 21px;
-    margin: 0 -3px 2px 2px;
+    margin: 0 -2px 2px 0;
   }
   .hero .hero-left h1 {
     text-align: left;
