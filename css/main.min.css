@@ -800,6 +800,7 @@ h2 {
   }
 }
 .hero {
+  top: -1px;
   min-height: 625px;
   padding: 80px 0;
   position: relative;
@@ -867,7 +868,7 @@ h2 {
   display: inline-block;
   max-width: 567px;
   padding-top: 24px;
-  font-size: 52px;
+  font-size: 51px;
   line-height: 120%;
 }
 .hero-left h1 div {
@@ -907,6 +908,7 @@ h2 {
   font-size: 22px;
   font-weight: 600;
   line-height: 140%;
+  max-width: 555px;
 }
 .btnplace {
   display: flex;
