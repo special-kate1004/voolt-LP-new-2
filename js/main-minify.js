@@ -1,8 +1,10 @@
 $(document).ready(function () {
-  let t = $("#thumbnail");
+  let isPlaying = false;
   $("#thumbnail").click(function () {
-    let e = $(window).width();
-    $("video").css("display", "block").get(0).play(), t.hide();
+    isPlaying = !isPlaying;
+    $("#thumbnail img").css("display", isPlaying ? "none" : "block");
+    if (isPlaying) $("video").css("display", "block").get(0).play();
+    else $("video").css("display", "block").get(0).pause();
   });
   (_ = jQuery)("section.faq-section").length &&
     _(".qa-item").click(function (e) {

@@ -7,6 +7,10 @@ const swiper = new Swiper(".testimonial .swiper-container", {
     delay: 2000,
     disableOnInteraction: false,
   },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
   breakpoints: {
     // On mobile, show 1 item
     320: {

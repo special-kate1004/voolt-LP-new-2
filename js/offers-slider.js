@@ -5,6 +5,7 @@ const offers_swiper = new Swiper(".voolt-offers .swiper-container", {
   loop: true, // Loop the carousel,
   centeredSlides: true,
   speed: 500,
+  slideToClickedSlide: true,
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,

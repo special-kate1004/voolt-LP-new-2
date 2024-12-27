@@ -1,1 +1,118 @@
-.facebook.img-txt-section .content{max-width:687px}.earn-money.img-txt-section .img-container img{box-shadow:none}.earn-money.img-txt-section .content span{color:#000;max-width:564px;display:inline-block}.earn-money.img-txt-section .btnplace{align-items:start}.earn-money.img-txt-section .img-container{max-width:536px}.img-txt-section{padding:80px}.img-txt-section .container{display:flex;justify-content:space-between;gap:20px;max-width:1440px;margin:auto}.img-txt-section .content .icon{width:60px;filter:drop-shadow(0 1.075px 2.688px rgb(0 0 0 / .1)) drop-shadow(0 4.301px 4.301px rgb(0 0 0 / .09)) drop-shadow(0 10.216px 5.914px rgb(0 0 0 / .05)) drop-shadow(0 17.743px 6.99px rgb(0 0 0 / .01)) drop-shadow(0 27.959px 8.065px #fff0)}.img-txt-section .content div{margin-bottom:22px;display:flex;align-items:center;gap:18px}.img-txt-section .content h2{color:#09090b;font-family:"General Sans";font-size:40px;font-style:normal;font-weight:600;line-height:120%;letter-spacing:.4px;padding:24px 0;text-align:left}.img-txt-section .content span{color:#71717a;font-family:"General Sans";font-size:22px;font-style:normal;line-height:140%;font-weight:500}.img-txt-section .img-container{max-width:355px}.img-txt-section .img-container img{border-radius:15.317px;box-shadow:0 83.475px 22.975px 0 #fff0,0 53.608px 21.443px 0 rgb(0 0 0 / .01),0 29.867px 17.614px 0 rgb(0 0 0 / .05),0 13.019px 13.019px 0 rgb(0 0 0 / .09),0 3.063px 7.658px 0 rgb(0 0 0 / .1)}.img-txt-section .btnplace{margin-top:40px;align-items:center}@media screen and (max-width:768px){.img-txt-section{padding:60px 40px}.img-txt-section .container{flex-direction:column}.facebook.img-txt-section .container{flex-direction:column-reverse}.img-txt-section .img-container{max-width:100%;margin:auto}.img-txt-section .content h2{font-size:36px}.img-txt-section .content span{font-size:18px}}@media screen and (max-width:567px){.img-txt-section{padding:20px 16px}.earn-money.img-txt-section .img-container img{margin-left:-20px}.earn-money.img-txt-section h2{padding-top:0}}
+.facebook.img-txt-section .content {
+  max-width: 687px;
+}
+.facebook.img-txt-section .content h2 span {
+  color: #09090b;
+  font-family: "General Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0.4px;
+  padding: 24px 0;
+  text-align: left;
+}
+.earn-money.img-txt-section .img-container img {
+  box-shadow: none;
+}
+.earn-money.img-txt-section .content span {
+  color: #000;
+  max-width: 564px;
+  display: inline-block;
+}
+.earn-money.img-txt-section .btnplace {
+  align-items: start;
+}
+.earn-money.img-txt-section .img-container {
+  max-width: 536px;
+}
+.img-txt-section {
+  padding: 80px;
+}
+.img-txt-section .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1440px;
+  margin: auto;
+}
+.img-txt-section .content .icon {
+  width: 60px;
+  filter: drop-shadow(0 1.075px 2.688px rgb(0 0 0 / 0.1))
+    drop-shadow(0 4.301px 4.301px rgb(0 0 0 / 0.09))
+    drop-shadow(0 10.216px 5.914px rgb(0 0 0 / 0.05))
+    drop-shadow(0 17.743px 6.99px rgb(0 0 0 / 0.01))
+    drop-shadow(0 27.959px 8.065px #fff0);
+}
+.img-txt-section .content div {
+  margin-bottom: 22px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.img-txt-section .content h2 {
+  color: #09090b;
+  font-family: "General Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0.4px;
+  padding: 24px 0;
+  text-align: left;
+}
+.img-txt-section .content span {
+  color: #71717a;
+  font-family: "General Sans";
+  font-size: 22px;
+  font-style: normal;
+  line-height: 140%;
+  font-weight: 500;
+}
+.img-txt-section .img-container {
+  max-width: 355px;
+}
+.img-txt-section .img-container img {
+  border-radius: 15.317px;
+  box-shadow: 0 83.475px 22.975px 0 #fff0,
+    0 53.608px 21.443px 0 rgb(0 0 0 / 0.01),
+    0 29.867px 17.614px 0 rgb(0 0 0 / 0.05),
+    0 13.019px 13.019px 0 rgb(0 0 0 / 0.09),
+    0 3.063px 7.658px 0 rgb(0 0 0 / 0.1);
+}
+.img-txt-section .btnplace {
+  margin-top: 40px;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .img-txt-section {
+    padding: 60px 40px;
+  }
+  .img-txt-section .container {
+    flex-direction: column;
+  }
+  .facebook.img-txt-section .container {
+    flex-direction: column-reverse;
+  }
+  .img-txt-section .img-container {
+    max-width: 100%;
+    margin: auto;
+  }
+  .img-txt-section .content h2 {
+    font-size: 36px;
+  }
+  .img-txt-section .content span {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 567px) {
+  .img-txt-section {
+    padding: 20px 16px;
+  }
+  .earn-money.img-txt-section .img-container img {
+    margin-left: -20px;
+  }
+  .earn-money.img-txt-section h2 {
+    padding-top: 0;
+  }
+}
